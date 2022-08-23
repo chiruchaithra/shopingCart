@@ -1,0 +1,13 @@
+.homepageWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.info {
+    border-radius: 11px;
+    line-height: 24px;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: cadetblue;
+    padding: 10px 10px
+}

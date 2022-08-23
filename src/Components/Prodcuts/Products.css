@@ -1,0 +1,67 @@
+.productsWrapper {
+    display: flex;
+    margin-bottom: 30px;
+}
+.image {
+    width: 150px;
+    height: 100%;
+}
+.searchBoxWrapper {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 50px;
+    align-items: center;
+}
+.inputBox {
+    height: 21px;
+    width: 209px
+}
+.productDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 15px;
+    background-color: azure;
+    padding: 15px 30px 15px 10px;
+    border: 1px solid;
+}
+.itemWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.button {
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.heading {
+    text-align: center;
+}
+
+.loading {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.loading:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid black;
+    border-color: black transparent black transparent;
+    animation: loadingAnimation 1.2s linear infinite;
+}
+@keyframes loadingAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
